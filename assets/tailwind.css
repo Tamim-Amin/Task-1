@@ -1,0 +1,18 @@
+body {
+      background-color: #fcf8f8;
+      font-family: Arial, sans-serif;
+    }
+.signup-container {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: 40px auto;
+    }
+.form-control {
+      border-radius: 0;
+      box-shadow: none;
+      border: none;
+      border-bottom: 1.5px solid #443f3f;
+      padding-left: 40px;
+    }
