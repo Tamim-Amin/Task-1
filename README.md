@@ -25,7 +25,7 @@ The registration form collects user information and profile images.
 ### 👥 Registered Users Page
 Displays a list of all registered users with edit and delete functionality.
 
-![Registered Users Page](assets/registered_users.png)
+![Registered Users Page](images/registered_users.png)
 
 ---
 
