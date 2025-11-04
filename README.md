@@ -86,8 +86,4 @@ Displays a list of all registered users with edit and delete functionality.
 
 ---
 
-## ⚙️ Installation & Setup Guide
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/user-registration-system.git
