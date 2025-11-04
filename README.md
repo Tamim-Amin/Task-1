@@ -20,7 +20,7 @@ This project demonstrates full-stack web development with seamless integration b
 ### 🧍‍♂️ Sign Up Page
 The registration form collects user information and profile images.
 
-![Sign Up Page](assets/signup.png)
+![Sign Up Page](images/signup.png)
 
 ### 👥 Registered Users Page
 Displays a list of all registered users with edit and delete functionality.
