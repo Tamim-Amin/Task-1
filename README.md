@@ -1,66 +1,93 @@
-# 🧾 User Registration System
+# 🧾 User Registration & Management System
 
-A simple and responsive **User Registration System** built using **HTML**, **Tailwind CSS**, **PHP**, **JavaScript**, and **MySQL**.  
-The system allows users to **sign up**, **upload a profile picture**, and stores the data in a MySQL database.  
-It also provides a **Registered Users** table where all users are displayed with options to **Edit** or **Delete** their information.
+A modern **User Registration and Management System** built using **HTML**, **Tailwind CSS**, **PHP**, **JavaScript**, and **MySQL**.  
+This system allows users to **register**, **upload a profile picture**, and **manage registered users** in a clean, responsive interface.
 
 ---
 
-## 🚀 Features
+## 🌐 Overview
 
-- 📝 **User Registration Form**
-  - First Name, Last Name, Date of Birth, Gender  
-  - Email, Password, Phone Number  
-  - Profile Image Upload option  
-- 📦 **Database Integration (MySQL)**
-  - User details are securely stored in a MySQL database.
-- 👥 **Registered Users Table**
-  - Displays all registered users with their profile picture, name, and email.
-  - Shows submission and last update timestamps.
-  - Edit and Delete buttons for managing users.
-- 🎨 **Modern UI**
-  - Clean and responsive design built with **Tailwind CSS**.
-- ⚙️ **Dynamic Interaction**
-  - JavaScript used for form validation and interactive components.
+The project includes two main sections:
+1. **Sign Up Page** – A form where new users can register with personal details and a profile image.
+2. **Registered Users Page** – Displays a list of all users stored in the database, with options to **Edit** or **Delete** records.
+
+This project demonstrates full-stack web development with seamless integration between the frontend and backend using PHP and MySQL.
+
+---
+
+## 🖼️ Screenshots
+
+### 🧍‍♂️ Sign Up Page
+The registration form collects user information and profile images.
+
+![Sign Up Page](assets/signup.png)
+
+### 👥 Registered Users Page
+Displays a list of all registered users with edit and delete functionality.
+
+![Registered Users Page](assets/registered_users.png)
+
+---
+
+## ✨ Features
+
+✅ **User Registration Form**
+- Collects first name, last name, date of birth, gender, email, password, phone number, and profile picture.  
+- Validates input fields before submission using JavaScript.  
+- Uploads images to the server and stores their paths in the database.
+
+✅ **Database Integration (MySQL)**
+- Stores user information securely in a MySQL database.  
+- Automatically records submission and last update timestamps.
+
+✅ **Registered Users Management**
+- Displays all user records dynamically from the database.  
+- Includes **Edit** and **Delete** options for managing users.  
+- Displays each user’s profile photo, name, and email.
+
+✅ **Responsive Design**
+- Built with **Tailwind CSS** for a clean and mobile-friendly layout.
+
+✅ **Dynamic Functionality**
+- JavaScript enhances interactivity and client-side validation.
 
 ---
 
 ## 🧩 Technologies Used
 
-| Technology | Purpose |
-|-------------|----------|
-| **HTML5** | Structure of the web pages |
-| **Tailwind CSS** | Styling and responsive design |
-| **JavaScript** | Form validation and interactivity |
-| **PHP** | Backend logic and database connection |
-| **MySQL** | Database for storing user details |
+| Technology | Description |
+|-------------|-------------|
+| **HTML5** | Provides the structure of the web pages |
+| **Tailwind CSS** | For modern, responsive, and elegant UI design |
+| **JavaScript (ES6)** | Handles front-end interactivity and validation |
+| **PHP (Core PHP)** | Manages backend logic and database operations |
+| **MySQL** | Stores and retrieves user data |
 
 ---
 
 ## 🗄️ Database Structure
 
-**Database Name:** `user_registration_db`
-
+**Database Name:** `user_registration_db`  
 **Table Name:** `users`
 
-| Field Name | Type | Description |
-|-------------|------|-------------|
+| Field | Type | Description |
+|--------|------|-------------|
 | `id` | INT (AUTO_INCREMENT) | Primary Key |
 | `first_name` | VARCHAR(100) | User’s first name |
 | `last_name` | VARCHAR(100) | User’s last name |
 | `dob` | DATE | Date of birth |
-| `gender` | VARCHAR(20) | Gender of the user |
-| `email` | VARCHAR(150) | Email address |
-| `password` | VARCHAR(255) | Hashed password |
-| `phone` | VARCHAR(20) | Contact number |
-| `image` | VARCHAR(255) | Profile image file path |
-| `submitted_at` | DATETIME | Date and time when registered |
-| `updated_at` | DATETIME | Last updated time |
+| `gender` | VARCHAR(20) | Gender |
+| `email` | VARCHAR(150) | User email |
+| `password` | VARCHAR(255) | User password (hashed recommended) |
+| `phone` | VARCHAR(20) | Phone number |
+| `image` | VARCHAR(255) | File path of uploaded image |
+| `submitted_at` | DATETIME | Record creation timestamp |
+| `updated_at` | DATETIME | Record update timestamp |
 
 ---
 
-## 🧰 Setup Instructions
+## ⚙️ Installation & Setup Guide
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/user-registration-system.git
